@@ -1,0 +1,4 @@
+faiss_cpu
+gradio
+numpy
+ollama
