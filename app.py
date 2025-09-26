@@ -1,6 +1,6 @@
 import os
-from GraphMemory import store_memory_local, build_index_from_texts, query_memories, show_index_summary, migrate_profile_to_personalization
-from langgraph_flow import query_with_memory, query_without_memory
+from memory_store import store_memory_local, build_index_from_texts, query_memories, show_index_summary, migrate_profile_to_personalization
+from memory_query import query_with_memory, query_without_memory
 import gradio as gr
 
 DEMO_MEMORIES = [
